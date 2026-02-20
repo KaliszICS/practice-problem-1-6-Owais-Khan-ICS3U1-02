@@ -61,7 +61,7 @@ public class PracticeProblem {
 		Scanner input = new Scanner(System.in);
         System.out.print("Input a word earlier than google: ");
         String word = input.nextLine();
-        System.out.println((word.compareTo("google") > 0));
+        System.out.println((word.compareTo("google") < 0));
 	}
 
 }
