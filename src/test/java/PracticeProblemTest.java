@@ -178,7 +178,7 @@ public class PracticeProblemTest {
       PracticeProblem.q4();
 
       // assertion
-      assertEquals("Input a number: true\n", bos.toString());
+      assertEquals("Input an number: true\n", bos.toString());
 
       // undo the binding in System
       System.setOut(originalOut);
